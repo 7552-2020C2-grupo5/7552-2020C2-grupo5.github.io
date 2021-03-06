@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publications
+title: Bookings
 parent: Backend
 nav_order: 1
 has_toc: true
@@ -15,7 +15,7 @@ has_toc: true
 {:toc}
 </details>
 
-# Publications microservice
+# Bookings microservice
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/7552-2020C2-grupo5/bookings-microservice)
 
 En [este link](https://github.com/7552-2020C2-grupo5/bookings-microservice) se puede acceder al repositorio.
