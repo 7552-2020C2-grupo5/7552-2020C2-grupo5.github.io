@@ -6,7 +6,6 @@ on:
     paths-ignore:
       - .gitignore
       - README.md
-      - LICENSE
 
 jobs:
   continuous-delivery:
@@ -60,3 +59,5 @@ jobs:
             rm -rf _site
             mv _site-rename _site
           fi
+
+          bash tools/deploy.sh
