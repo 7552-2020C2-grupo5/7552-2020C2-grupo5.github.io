@@ -30,6 +30,20 @@ gunicorn -w 2 --bind 0.0.0.0:<port> "bookbnb_middleware.app:create_app()"
 
 ### Heroku
 
-- Para desplegar nuestra API a Heroku, primero debemos loguearnos a nuestra cuenta de Heroku mediante la CLI con el comando `heroku login`.
-- Luego debemos agregar el remoto del repositorio de heroku mediante el comando `git remote add heroku <url-heroku-git>`
-- Por último debemos pushear con el comando `git push heroku master`
+Para desplegar la API a Heroku debemos primero loguearnos a nuestra cuenta de Heroku mediante la CLI con el siguiente comando:
+
+```console
+heroku login
+``` 
+
+Luego, debemos agregar el remoto del repositorio de heroku mediante el comando:
+
+```console
+git remote add heroku <url-heroku-git>
+``` 
+
+Por último, debemos pushear los cambios a Heroku con el comando:
+
+```console
+ git push heroku master
+```
