@@ -20,6 +20,8 @@ has_toc: true
 
 En esta sección se incluye la documentación referida a los microservicios de backend.
 
+{% rbimg branching.png %}
+
 # Arquitectura general
 {:toc}
 
