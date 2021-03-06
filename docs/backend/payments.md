@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Middleware
+title: Payments
 parent: Backend
 nav_order: 2
 has_toc: false
@@ -8,10 +8,10 @@ has_toc: false
 
 ## Instalación de dependencias
 
-Para instalar todas las dependencias necesarias debemos tener instalado el gestor de paquetes `pip` de python en nuestra computadora. Luego, correr en el directorio raíz del repositorio el siguiente comando:
+Para instalar todas las dependencias necesarias debemos tener instalado el gestor de paquetes `npm` de node en nuestra computadora. Luego, correr en el directorio raíz del repositorio el siguiente comando:
 
 ```console
-pip install -r requirements.txt
+npm install
 ```
 
 ---
@@ -25,10 +25,10 @@ En esta sección explicaremos como desplegar la API tanto localmente como en la 
 Una vez realizados todos los pasos de instalación, correr en el directorio raíz del repositorio el siguiente comando:
 
 ```console
-gunicorn -w 2 --bind 0.0.0.0:<port> "bookbnb_middleware.app:create_app()"
+npm start
 ```
 
-Una vez corrido este comando tendremos levantado localmente nuestro servidor en el puerto `<port>`.
+Una vez corrido este comando tendremos levantado localmente nuestro servidor de pagos en el puerto `3000`.
 
 ### Heroku
 
@@ -49,4 +49,3 @@ Por último, debemos pushear los cambios a Heroku con el comando:
 ```console
  git push heroku master
 ```
----
