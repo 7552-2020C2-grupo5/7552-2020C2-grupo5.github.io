@@ -28,3 +28,13 @@ just_the_docs:
       name: Backend
     app:
       name: App
+
+aux_links_new_tab: true
+heading_anchors: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+color_scheme: dark
+search_enabled: true
+
+aux_links:
+  "Github": "https://github.com/7552-2020C2-grupo5"
+  "BookBNB Universe": "https://github.com/7552-2020C2-grupo5/bookbnb-universe"
