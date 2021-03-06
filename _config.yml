@@ -9,26 +9,6 @@ theme: just-the-docs
 plugins:
   - jekyll-feed
 
-collections:
-  backoffice:
-    permalink: "/:collection/:path/"
-    output: true
-  backend:
-    permalink: "/:collection/:path/"
-    output: true
-  app:
-    permalink: "/:collection/:path/"
-    output: true
-
-just_the_docs:
-  collections:
-    backoffice:
-      name: Backoffice
-    backend:
-      name: Backend
-    app:
-      name: App
-
 aux_links_new_tab: true
 heading_anchors: true
 last_edit_time_format: "%b %e %Y at %I:%M %p"
