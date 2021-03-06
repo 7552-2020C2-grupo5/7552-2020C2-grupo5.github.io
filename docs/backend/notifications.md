@@ -2,7 +2,7 @@
 layout: default
 title: Notifications
 parent: Backend
-nav_order: 1
+nav_order: 7
 has_toc: true
 ---
 
