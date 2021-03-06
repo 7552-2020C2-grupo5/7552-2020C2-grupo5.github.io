@@ -16,13 +16,15 @@ has_toc: true
 </details>
 
 # Users microservice
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/7552-2020C2-grupo5/users-microservice)
+
 En [este link](https://github.com/7552-2020C2-grupo5/users-microservice) se puede acceder al repositorio.
 
 # Documentación OpenAPI
 La documentación de swagger se puede acceder en el [root de la aplicación](https://bookbnb5-users-microservice.herokuapp.com). La misma es generada automáticamente con `flask-restx`.
 
 # Status badges
-![](https://raw.githubusercontent.com/7552-2020C2-grupo5/users-microservice/master/coverage-badge.svg)[![Tests](https://github.com/7552-2020C2-grupo5/users-microservice/actions/workflows/tests.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/users-microservice/actions/workflows/tests.yml)[![Linters](https://github.com/7552-2020C2-grupo5/users-microservice/actions/workflows/linters.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/users-microservice/actions/workflows/linters.yml)[![Bandit](https://github.com/7552-2020C2-grupo5/users-microservice/actions/workflows/bandit.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/users-microservice/actions/workflows/bandit.yml)![](https://heroku-badge.herokuapp.com/?app=bookbnb5-users-microservice)
+![](https://raw.githubusercontent.com/7552-2020C2-grupo5/users-microservice/master/coverage-badge.svg)[![Tests](https://github.com/7552-2020C2-grupo5/users-microservice/actions/workflows/tests.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/users-microservice/actions/workflows/tests.yml)[![Linters](https://github.com/7552-2020C2-grupo5/users-microservice/actions/workflows/linters.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/users-microservice/actions/workflows/linters.yml)[![Bandit](https://github.com/7552-2020C2-grupo5/users-microservice/actions/workflows/bandit.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/users-microservice/actions/workflows/bandit.yml)
 
 # Class diagram
 ![](https://github.com/7552-2020C2-grupo5/users-microservice/blob/master/docs/images/project_classes.png?raw=true)
@@ -31,3 +33,28 @@ La documentación de swagger se puede acceder en el [root de la aplicación](htt
 ![](https://github.com/7552-2020C2-grupo5/users-microservice/blob/master/docs/images/packages_dependencies.png?raw=true)
 
 # Deploy
+## Heroku
+![](https://heroku-badge.herokuapp.com/?app=bookbnb5-users-microservice)
+
+Instrucciones [acá](https://github.com/7552-2020C2-grupo5/users-microservice#deploy-to-heroku).
+
+## Local
+### Using docker
+Instrucciones [acá](https://github.com/7552-2020C2-grupo5/users-microservice#docker)
+
+### Using poetry
+Instrucciones [acá](https://github.com/7552-2020C2-grupo5/users-microservice#running-locally)
+
+## Configuration
+El microservicio usa [youconfigme](https://crossnox.github.io/YouConfigMe/), la cual sigue [The Twelve-Factor App](https://12factor.net/config).
+
+Config vars usadas:
+- `DATABASE_URL`: URI de la DB a usar
+- `DD_API_KEY`: api key de DataDog
+- `DD_DYNO_HOST`: requerido para agrupar hosts en DataDog
+- `DD_TAGS`: tags para DataDog
+- `ENV`: `DEV` denota un entorno de desarrollo, que no valida server tokens. Cualquier otro valor implica un entorno productivo.
+- `HEROKU_API_KEY`: api key de heroku requerida para setear config vars
+- `HEROKU_APP_NAME`: nombre de la app en heroku, requerida para setear config vars
+- `OAUTH_AUDIENCE`: lista separada por comas de audiencias de firebase
+- `SENDGRID_API_KEY`: api key de sendgrid usada para enviar mails
