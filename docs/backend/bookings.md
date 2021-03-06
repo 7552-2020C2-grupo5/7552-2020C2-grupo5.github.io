@@ -34,7 +34,7 @@ La documentación de swagger se puede acceder en el [root de la aplicación](htt
 
 # Deploy
 ## Heroku
-![](https://heroku-badge.herokuapp.com/?app=bookbnb5-bookings-microservice)
+![](https://heroku-badge.herokuapp.com/?app=bookbnb5-bookings)
 
 Instrucciones [acá](https://github.com/7552-2020C2-grupo5/bookings-microservice#deploy-to-heroku).
 
