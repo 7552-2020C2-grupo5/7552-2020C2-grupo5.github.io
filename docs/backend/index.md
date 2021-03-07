@@ -19,9 +19,8 @@ has_toc: true
 
 En esta sección se incluye la documentación referida a los microservicios de backend.
 
-{% rbimg branching.png %}
-
 # Arquitectura general
+{% rbimg arq_general.png %}
 
 # Cookiecutter
 Varios de los microservicios fueron creados a partir de un [cookiecutter](cookiecutter.readthedocs.io/), el cual fue evolucionando y recibiendo las mejoras que se hacían en cada microservicio.
