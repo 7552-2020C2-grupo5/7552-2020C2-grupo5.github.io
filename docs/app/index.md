@@ -116,6 +116,89 @@ Una vez que hayamos hecho esto (vemos como nos debería quedar la publicación c
 <img src="../app/assets/my_publications_filed.jpg" style="border-style: solid; border-width: 0.1px" width="200"/>
 
 
+### Edición de una publicación
+
+Lo primero que debemos hacer para editar alguna de nuestras publicaciones, es ir a la solapa de **"Mis Publicaciones"**. Aquí tocaremos el botón que dice **"Editar"** en la publicación que deseemos hacer cambios. 
+
+<img src="../app/assets/my_publications_filed.jpg" style="border-style: solid; border-width: 0.1px" width="200"/>
+
+Una vez aquí veremos la publicación junto con sus datos cargados (como si recién los hubiesemos llenado). Entonces modificamos los campos que deseamos a nuestro gusto y tocamos el botón de **"PUBLICAR"**. El mismo reflejará los cambios en la publicación y nos devoverá a la pantalla de **"Mis publicaciones"**
+
+## Reservas
+
+### Resevar un lugar
+
+Para realizar una reserva lo primero que deberemos hacer es ir a la publicación que deseamos reservar. Veremos algo así:
+
+<img src="../app/assets/reservable_publication.jpg" style="border-style: solid; border-width: 0.1px" width="200"/>
+
+Para encontrar una publicación reservable podemos hacerlo por las búsquedas o mismo por las recomendaciones. Sin importar como lleguemos a la publicación para realizar la reserva debermos tocar el botón que dice **"Reservar"**. Esto nos llevará a la siguiente pantalla:
+
+<img src="../app/assets/new_reservation.jpg" style="border-style: solid; border-width: 0.1px" width="200"/>
+
+En esta pantalla deberemos completar con los datos de la nueva reserva, esto es: la fecha de checkin y la fecha de checkout. Para esto bastará con tocar alguno de los calendarios y completar la fecha correspondiente. Las cuáles lógicamente tienen que tener por lo menos un día de diferencia, y la fecha de checkout debe ser posterior a la de checkin. Esto lo que hará es crear un intento de reserva. Es decir, el dueño de la publicación tendrá que aceptar la reserva que nosotros proponemos y recién ahí quedará en estado confirmada. El precio que se nos descontará entonces es la cantida de noches por el precio unitario de la misma.
+
+Una vez creado el intento de reserva se nos redigirá a la pantalla de nuestras reservas en la cuál se mostrará la cantidad de reservas que tenemos y su estado (los cuales pueden ser):
+
+ - **Aceptado**: el dueño de la publicación aceptó la reserva y la misma quedó confirmada en el sistema. En este caso se descuenta la plata del dueño de la reserva (inquilino) con un equivalente de la cantidad de noches por el precio unitario de cada una.
+- **Rechazado**: el dueño de la publicación rechazó nuestro intento de reserva. En este caso la plata de la reserva se devuelve a nuestro monedero 
+- **Pendiente**: el dueño de la reserva todavía no realizó ninguna acción. Es decir todavía no decidió si aceptarla o no
+
+Una vez que realizamos entonces el intento de reserva visualizaremos algo como esto:
+
+<img src="../app/assets/pending_bookings.jpg" style="border-style: solid; border-width: 0.1px" width="200"/>
+
+Aquí podemos observar toda la información de nuestra reserva. 
+
+- **Fecha de inicio**: fecha de checkin de nuestra reserva. Esto es, a partir de qué día podemos hospedarnos en el lugar
+- **Fecha de finalización**: fecha de checkout de nuestra reserva. Esto es, en qué día deberemos abandomar (como límite) el lugar
+- **Owner**: dueño de la reserva, en este caso nosotros
+- **Estado**: Estado de la reserva, son los etados que mencionamos anteriormente.
+- **Vencida**: podemos además observar si la reserva está o no cumplida. Una vez que se cumple la fecha de checkout la reserva se considera vencida y se podrá calificar nuestra experiencia en el lugar
+
+### Gestión de reservas de nuestras publicaciónes
+
+Por otro lado, cuando publicamos nuestro lugar también se generan reservas de otros usuario hacia éste. Las cuales nosotros deberemos aceptar o rechazar de acuerdo a nuestras preferencias. 
+
+Para gestionar esto lo que deberemos hacer es revisar periódicamente las publicaciones que hicimos y sus reservas asociadas. Para esto partimos de nuestras publicaciones
+
+<img src="../app/assets/my_publications_filed.jpg" style="border-style: solid; border-width: 0.1px" width="200"/>
+
+Luego entramos a la publicación de la cuál queremos gestionar sus reservas tocando la card correspondiente
+
+<img src="../app/assets/own_publication_view.jpg" style="border-style: solid; border-width: 0.1px" width="200"/>
+
+Una vez aquí tocamos el botón que dice **"Reservas asociadas"** el cuál nos redirigirá a las reservas que otros usuarios hayan hecho en esa publicación. Nosotros desde aquí podremos gestionar (es decir, aceptar o rechazar) las mismas.
+
+<img src="../app/assets/own_publication_bookins_related.jpg" style="border-style: solid; border-width: 0.1px" width="200"/>
+
+Para esto tocaremos el botón correspondiente (para aceptar o rechazar). En este caso aceptamos la reserva por lo que la misma deberá cambiar de estado. Puede que requiera salir y volver a entrar a la pantalla para visualizar el cambio de estado
+
+<img src="../app/assets/acepted_booking.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="200"/>
+
+Una vez aceptada la reserva se actualizarán las billteras de ambos usuarios con los nuevos montos. Acreditándole al dueño de la publicación (en el caso de aceptar) la correspondiente ganancia de la reserva.
+
+## Consultas
+
+Puede que ante la duda de una nueva reserva deseemos saber un poco más de la publicación, o incluso más acerca del dueño, por lo que en este caso entran en juego las consultas tanto públicas como privadas
+
+### Realizar consultas públicas
+
+
+### Realizar consultas privadas
+
+## Búsquedas
+
+## Recibir recomendaciones
+
+## Calificaciones
+
+
+
+
+
+
+
 
 
 
