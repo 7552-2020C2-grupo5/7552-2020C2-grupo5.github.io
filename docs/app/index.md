@@ -184,14 +184,72 @@ Puede que ante la duda de una nueva reserva deseemos saber un poco más de la pu
 
 ### Realizar consultas públicas
 
+Para realizar una consulta púbica deberemos primeramente acceder a la publicación sobre la cuál queremos consultar. Una vez allí deberemos navegar hasta el fondo de la misma en la cuál veremos la caja de consultas públicas.
+
+Para realizar entonces una consulta escribiremos el texto que queramos y tocaremos en **"CONSULTAR"**
+
+<img src="../app/assets/questions_box.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="200"/>
+
+Por ejemplo nosotros queremos consultar por la zona en que se encuentra la publicación, entonces escribimos la consulta y la envíamos:
+
+<img src="../app/assets/queston_box_question.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="200"/>
+
+
+### Responder consultas públicas
+
+Por otro lado, como dueño de la publicación habrá gente que nos haga consultas públicas y nosotros deberemos responder. Retomando  con el ejemplo anterior y suponiendo que somos los dueños de la publicación, para responder a consultas públicas deberemos a la publicación y en particular a su caja de comentarios (al fondo de la misma). Una vez aquí lo que deberemos hacer es seleccionar la consulta que queremos responder (lo hacemos tocando el comentario en sí, el mismo se mostrará en violeta). Una vez seleccionado el comentario s e nos abrirá la caja de consultas para poder responder. Una vez que terminamos tocamos **"ENVIAR"** y la consulta pública quedará respondida. Mostramos el flujo a continuación:
+
+<img src="../app/assets/own_publication_question.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+<img src="../app/assets/answering_question.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+<img src="../app/assets/answered_question.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+
 
 ### Realizar consultas privadas
 
+Además existen casos en que no queremos que nuestras consultas sean vistas por todas las personas. Por lo que lo mejor en estos casos es realizar una consulta privada. Para esto deberemos ir nuevamente a la publicación de la cuál deseamos realizar la consulta. Una vez aquí deberemos visitar el perfil de publicante (esto se hace tocando el ícono de **Perfil** que aparece en la publicación). Una vez en el perfil tocamos el icono de mensaje ("Carta"). Esto nos abrirá una nueva ventana de conversación (con forma de chat) para pode consultarle al dueño las dudas que tengamos.
+
+
+<img src="../app/assets/publication_profile.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+<img src="../app/assets/owner_profile.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+<img src="../app/assets/chat.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+<img src="../app/assets/chat_written.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+
+
+De esta forma se enviará una notificación al dueño sobre la nueva consulta la cuál el podrá responder.
+
+### Responder consultas privadas
+
+Para responder consultas privadas el dueño del lugar deberá visitar la solapa de **"Mis consultas"** del menú principal. Aquí podrá visualizar una lista de personas de las cuales recibió consultas y podrá responder cada una como si fuese un chat. Una vez elegido a quíen responderle con tocar su nombre de usuario podrá acceder a la conversación
+
+<img src="../app/assets/my_chats_tab.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+<img src="../app/assets/conversations.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+<img src="../app/assets/answering.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+<img src="../app/assets/answered.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+
+
 ## Búsquedas
+
+Podemos querer también encontrar lugares por características, ya sea precio, cantidad de habitaciones, lugar, etc. Para esto existe el panel de búsqueda. Para acceder basta con ir a la solapa de **"Buscar"**.  Una vez aquí tendremos la posibilidad de completar todas las características que deseemos sobre el lugar
+
+<img src="../app/assets/searching.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+
+Tenemos entonces los siguientes filtros:
+- **Cantidad de baños**: esto se refiere a la cantidad de baños mínima que tiene que tener el lugar
+- **Cantidad de cuartos**: esto se refiere a la cantidad de cuartos mínima que tiene que tener el lugar
+- **Cantidad de camas**: esto se refiere a la cantidad de camas mínima que tiene que tener el lugar
+- **Precio mínimo por noche**: esto se refiere al precio mínimo que debe tener el lugar por noche
+- **Precio máximo por noche**: esto se refiere al precio máximo que debe tener el lugar por noche
+- **Fecha de checkin**: Filtra las publicaciones por la fecha de checkin. Para editar tocar el calendario
+- **Fecha de checkout**: Filtra las publicaciones por la fecha de checkout. Para editar tocar el calendario
+- **Ubicación**: en este campo podemos o bien escribir una dirección sobre la cuál buscar o podemos tildar la opción "Utilizar mi ubicación actual", en este caso el sistema tomará la ubicación actual del GPS
+
+Una vez hayamos completado los filtros que nos parezcan oportunos tocaremos el botón "BUSCAR" que nos devolverá las publicaciones que matcheen.
+
 
 ## Recibir recomendaciones
 
 ## Calificaciones
+
 
 
 
