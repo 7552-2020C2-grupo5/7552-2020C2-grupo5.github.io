@@ -2,7 +2,7 @@
 layout: default
 title: Middleware
 parent: Backend
-nav_order: 2
+nav_order: 1
 has_toc: false
 ---
 
@@ -36,13 +36,13 @@ Para desplegar la API a Heroku debemos primero loguearnos a nuestra cuenta de He
 
 ```console
 heroku login
-``` 
+```
 
 Luego, debemos agregar el remoto del repositorio de heroku mediante el comando:
 
 ```console
 git remote add heroku <url-heroku-git>
-``` 
+```
 
 Por último, debemos pushear los cambios a Heroku con el comando:
 

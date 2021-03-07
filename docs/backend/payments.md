@@ -2,7 +2,7 @@
 layout: default
 title: Payments
 parent: Backend
-nav_order: 2
+nav_order: 6
 has_toc: false
 ---
 
