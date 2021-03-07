@@ -16,34 +16,34 @@ has_toc: true
 </details>
 
 # Recommendations microservice
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/7552-2020C2-grupo5/recommendations-microservice)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/7552-2020C2-grupo5/recommendations_microservice)
 
-En [este link](https://github.com/7552-2020C2-grupo5/recommendations-microservice) se puede acceder al repositorio.
+En [este link](https://github.com/7552-2020C2-grupo5/recommendations_microservice) se puede acceder al repositorio.
 
 # Documentación OpenAPI
-La documentación de swagger se puede acceder en el [root de la aplicación](https://bookbnb5-recommendations-microservice.herokuapp.com). La misma es generada automáticamente con `flask-restx`.
+La documentación de swagger se puede acceder en el [root de la aplicación](https://recommendations_microservice.herokuapp.com). La misma es generada automáticamente con `flask-restx`.
 
 # Status badges
-![](https://raw.githubusercontent.com/7552-2020C2-grupo5/recommendations-microservice/master/coverage-badge.svg)[![Tests](https://github.com/7552-2020C2-grupo5/recommendations-microservice/actions/workflows/tests.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/recommendations-microservice/actions/workflows/tests.yml)[![Linters](https://github.com/7552-2020C2-grupo5/recommendations-microservice/actions/workflows/linters.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/recommendations-microservice/actions/workflows/linters.yml)[![Bandit](https://github.com/7552-2020C2-grupo5/recommendations-microservice/actions/workflows/bandit.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/recommendations-microservice/actions/workflows/bandit.yml)
+![](https://raw.githubusercontent.com/7552-2020C2-grupo5/recommendations_microservice/master/coverage-badge.svg)[![Tests](https://github.com/7552-2020C2-grupo5/recommendations_microservice/actions/workflows/tests.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/recommendations_microservice/actions/workflows/tests.yml)[![Linters](https://github.com/7552-2020C2-grupo5/recommendations_microservice/actions/workflows/linters.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/recommendations_microservice/actions/workflows/linters.yml)[![Bandit](https://github.com/7552-2020C2-grupo5/recommendations_microservice/actions/workflows/bandit.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/recommendations_microservice/actions/workflows/bandit.yml)
 
 # Class diagram
-![](https://github.com/7552-2020C2-grupo5/recommendations-microservice/blob/master/docs/images/project_classes.png?raw=true)
+![](https://github.com/7552-2020C2-grupo5/recommendations_microservice/blob/master/docs/images/project_classes.png?raw=true)
 
 # Packages dependencies
-![](https://github.com/7552-2020C2-grupo5/recommendations-microservice/blob/master/docs/images/packages_dependencies.png?raw=true)
+![](https://github.com/7552-2020C2-grupo5/recommendations_microservice/blob/master/docs/images/packages_dependencies.png?raw=true)
 
 # Deploy
 ## Heroku
-![](https://heroku-badge.herokuapp.com/?app=bookbnb5-recommendations-microservice)
+![](https://heroku-badge.herokuapp.com/?app=recommendations-microservice)
 
-Instrucciones [acá](https://github.com/7552-2020C2-grupo5/recommendations-microservice#deploy-to-heroku).
+Instrucciones [acá](https://github.com/7552-2020C2-grupo5/recommendations_microservice#deploy-to-heroku).
 
 ## Local
 ### Using docker
-Instrucciones [acá](https://github.com/7552-2020C2-grupo5/recommendations-microservice#docker)
+Instrucciones [acá](https://github.com/7552-2020C2-grupo5/recommendations_microservice#docker)
 
 ### Using poetry
-Instrucciones [acá](https://github.com/7552-2020C2-grupo5/recommendations-microservice#running-locally)
+Instrucciones [acá](https://github.com/7552-2020C2-grupo5/recommendations_microservice#running-locally)
 
 ## Configuration
 El microservicio usa [youconfigme](https://crossnox.github.io/YouConfigMe/), la cual sigue [The Twelve-Factor App](https://12factor.net/config).
@@ -58,3 +58,6 @@ Config vars usadas:
 - `HEROKU_APP_NAME`: nombre de la app en heroku, requerida para setear config vars
 - `OAUTH_AUDIENCE`: lista separada por comas de audiencias de firebase
 - `SENDGRID_API_KEY`: api key de sendgrid usada para enviar mails
+- 'BOOKINGS_DB': URI de la db de donde consumir data de bookings
+- `PUBLICATIONS_DB`: URI de la db de donde consumir data de publicaciones
+- `REVIEWS_DB`: URI de donde consumir data de reviews
