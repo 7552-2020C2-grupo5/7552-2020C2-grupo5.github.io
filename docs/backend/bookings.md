@@ -21,7 +21,7 @@ has_toc: true
 En [este link](https://github.com/7552-2020C2-grupo5/bookings-microservice) se puede acceder al repositorio.
 
 # Documentación OpenAPI
-La documentación de swagger se puede acceder en el [root de la aplicación](https://bookbnb5-publications.herokuapp.com). La misma es generada automáticamente con `flask-restx`.
+La documentación de swagger se puede acceder en el [root de la aplicación](https://bookbnb5-bookings.herokuapp.com). La misma es generada automáticamente con `flask-restx`.
 
 # Status badges
 ![](https://raw.githubusercontent.com/7552-2020C2-grupo5/bookings-microservice/master/coverage-badge.svg)[![Tests](https://github.com/7552-2020C2-grupo5/bookings-microservice/actions/workflows/tests.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/bookings-microservice/actions/workflows/tests.yml)[![Linters](https://github.com/7552-2020C2-grupo5/bookings-microservice/actions/workflows/linters.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/bookings-microservice/actions/workflows/linters.yml)[![Bandit](https://github.com/7552-2020C2-grupo5/bookings-microservice/actions/workflows/bandit.yml/badge.svg)](https://github.com/7552-2020C2-grupo5/bookings-microservice/actions/workflows/bandit.yml)
