@@ -246,11 +246,27 @@ Tenemos entonces los siguientes filtros:
 Una vez hayamos completado los filtros que nos parezcan oportunos tocaremos el botón "BUSCAR" que nos devolverá las publicaciones que matcheen.
 
 
-## Recibir recomendaciones
-
 ## Calificaciones
 
+### Calificar huésped
 
+Para calificar un huésped tenemos que tener alguna reserva que haya hecho esa persona y que la misma esté vencida. Recién cuando la reserva esté vencida es cuando se habilitará la opción de dejar una review del huésped.
+
+Para esto debemos ir a las reservas asociadas al lugar que tengamos publicados y una vez allí deberemos tocar el **"CALIFICAR HUÉSPED"**. El cual nos llevará a la pantall de reviews generales de esa persona. Una vez aquí escribimos un comentario y seleccionamos la cantidad de estrellas  que le damos a ese huésped. Las posibildades de puntaje que tenemos son: "Muy bueno", "Bueno", "Malo", "Muy malo". Cuando hayamos terminado tocamos el botón de **"ENVIAR"**. Dejamos a continuación imágenes del circuito cimpleto.
+
+<img src="../app/assets/review_host.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+<img src="../app/assets/guest_review.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+<img src="../app/assets/guest_reviewed.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+
+
+### Calificar lugar
+
+Para calificar un lugar el flujo es muy parecido a la calificación del huésped. Comenzamos yendo a la solapa de **"Mis Reservas"**. Una vez aquí veremos las reservas que tenemos vencidas y cuáles son las que podemos calificar. Para esto se habilitará el botón de **"Calificar lugar"**. Cuando toquemos este botón se nos abrirá la pantalla de reviews de la publicación y nos dará la posibilidad de dejar una nueva. Para esto escribimos un comentario y tocamos una puntuación en estrellas (aquí nuevamente las opciones son "Muy bueno, ""Bueno", "Malo", "Muy malo"). Una vez hayamos hecho esto tocamos el botón **"ENVIAR"**, la cuál dejará la review visible para el resto de los usuarios
+
+
+<img src="../app/assets/review_publication.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+<img src="../app/assets/writing_publication_review.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
+<img src="../app/assets/writed_publication_review.jpg" style="margin: 20px; border-style: solid; border-width: 0.1px" width="180"/>
 
 
 
